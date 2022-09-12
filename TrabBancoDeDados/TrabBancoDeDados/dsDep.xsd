@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDep" targetNamespace="http://tempuri.org/dsDep.xsd" xmlns:mstns="http://tempuri.org/dsDep.xsd" xmlns="http://tempuri.org/dsDep.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDep" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsDep" msprop:Generator_DataSetName="dsDep">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Departamento" msprop:Generator_TableClassName="DepartamentoDataTable" msprop:Generator_TableVarName="tableDepartamento" msprop:Generator_TablePropName="Departamento" msprop:Generator_RowDeletingName="DepartamentoRowDeleting" msprop:Generator_RowChangingName="DepartamentoRowChanging" msprop:Generator_RowEvHandlerName="DepartamentoRowChangeEventHandler" msprop:Generator_RowDeletedName="DepartamentoRowDeleted" msprop:Generator_UserTableName="Departamento" msprop:Generator_RowChangedName="DepartamentoRowChanged" msprop:Generator_RowEvArgName="DepartamentoRowChangeEvent" msprop:Generator_RowClassName="DepartamentoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_x0020_dept" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columncod_dept" msprop:Generator_ColumnPropNameInRow="cod_dept" msprop:Generator_ColumnPropNameInTable="cod_deptColumn" msprop:Generator_UserColumnName="cod dept" type="xs:int" />
+              <xs:element name="departamento" msprop:Generator_ColumnVarNameInTable="columndepartamento" msprop:Generator_ColumnPropNameInRow="departamento" msprop:Generator_ColumnPropNameInTable="departamentoColumn" msprop:Generator_UserColumnName="departamento" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Departamento" />
+      <xs:field xpath="mstns:cod_x0020_dept" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

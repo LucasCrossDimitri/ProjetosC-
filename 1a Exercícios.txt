@@ -1,0 +1,52 @@
+    Lista de Exercícios
+
+1. Fazer o Tutorial _Calculador.pdf
+
+2. Fazer o Layout de uma Calculadora - Parecida com a do Windows (simples)
+   Não precisa fazer os botões de memória.
+
+ Nos enunciados abaixo, deixe as telas de forma amigável. 
+
+PROGRAMAS OBRIGATÓRIOS
+
+A) Faça um programa que peça um número inteiro e imprima na tela se este número é positivo ou negativo.
+
+B) Faça um programa que peça um número inteiro e imprima na tela se este número é par, ímpar ou zero.
+
+C) Faça um programa que pergunte em que turno você estuda. 
+   Peça para digitar M-matutino, V-vespertino ou N-noturno. 
+   Imprima a mensagem “Bom Dia!”, “Boa Tarde!” ou “Boa Noite!” conforme o turno.
+   Use o componente Ckeckbox.
+
+D) Faça um programa que tendo como dados de entrada a altura e o sexo de uma pessoa, calcule o peso ideal, utilizando as seguintes fórmulas:
+ •	Para homem: (72,7 * altura) – 58
+ •	Para mulher: (62,1 * altura) – 44,7
+
+E) Faça um programa  que verifique se uma letra digitada é vogal ou consoante ou um caracter desconhecido.
+
+PROGRAMAS OPCIONAIS 
+
+
+A) Faça um programa que imprima numa listbox,os números (pares ou ímpares - o usuário escolhe o que quer ver) do limite inicial até o limite final. 
+
+B) Modifique o programa anterior para que tenha dois listbox e imprima os pares e os
+ímpares em listboxs diferentes.
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+

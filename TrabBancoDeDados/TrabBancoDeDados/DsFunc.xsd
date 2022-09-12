@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsFunc" targetNamespace="http://tempuri.org/DsFunc.xsd" xmlns:mstns="http://tempuri.org/DsFunc.xsd" xmlns="http://tempuri.org/DsFunc.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsFunc" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DsFunc" msprop:Generator_DataSetName="DsFunc">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MatFuncionario" msprop:Generator_TableClassName="MatFuncionarioDataTable" msprop:Generator_TableVarName="tableMatFuncionario" msprop:Generator_TablePropName="MatFuncionario" msprop:Generator_RowDeletingName="MatFuncionarioRowDeleting" msprop:Generator_RowChangingName="MatFuncionarioRowChanging" msprop:Generator_RowEvHandlerName="MatFuncionarioRowChangeEventHandler" msprop:Generator_RowDeletedName="MatFuncionarioRowDeleted" msprop:Generator_UserTableName="MatFuncionario" msprop:Generator_RowChangedName="MatFuncionarioRowChanged" msprop:Generator_RowEvArgName="MatFuncionarioRowChangeEvent" msprop:Generator_RowClassName="MatFuncionarioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Mat_x0020_funcionario" msprop:Generator_ColumnVarNameInTable="columnMat_funcionario" msprop:Generator_ColumnPropNameInRow="Mat_funcionario" msprop:Generator_ColumnPropNameInTable="Mat_funcionarioColumn" msprop:Generator_UserColumnName="Mat funcionario" type="xs:int" />
+              <xs:element name="nome_x0020_do_x0020_funcionario" msprop:Generator_ColumnVarNameInTable="columnnome_do_funcionario" msprop:Generator_ColumnPropNameInRow="nome_do_funcionario" msprop:Generator_ColumnPropNameInTable="nome_do_funcionarioColumn" msprop:Generator_UserColumnName="nome do funcionario" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="salario" msprop:Generator_ColumnVarNameInTable="columnsalario" msprop:Generator_ColumnPropNameInRow="salario" msprop:Generator_ColumnPropNameInTable="salarioColumn" msprop:Generator_UserColumnName="salario" type="xs:decimal" minOccurs="0" />
+              <xs:element name="casado" msprop:Generator_ColumnVarNameInTable="columncasado" msprop:Generator_ColumnPropNameInRow="casado" msprop:Generator_ColumnPropNameInTable="casadoColumn" msprop:Generator_UserColumnName="casado" type="xs:boolean" minOccurs="0" />
+              <xs:element name="foto" msprop:Generator_ColumnVarNameInTable="columnfoto" msprop:Generator_ColumnPropNameInRow="foto" msprop:Generator_ColumnPropNameInTable="fotoColumn" msprop:Generator_UserColumnName="foto" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="data_x0020_admição" msprop:Generator_ColumnVarNameInTable="columndata_admição" msprop:Generator_ColumnPropNameInRow="data_admição" msprop:Generator_ColumnPropNameInTable="data_admiçãoColumn" msprop:Generator_UserColumnName="data admição" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="data_x0020_demição" msprop:Generator_ColumnVarNameInTable="columndata_demição" msprop:Generator_ColumnPropNameInRow="data_demição" msprop:Generator_ColumnPropNameInTable="data_demiçãoColumn" msprop:Generator_UserColumnName="data demição" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="cod_x0020_dept" msprop:Generator_ColumnVarNameInTable="columncod_dept" msprop:Generator_ColumnPropNameInRow="cod_dept" msprop:Generator_ColumnPropNameInTable="cod_deptColumn" msprop:Generator_UserColumnName="cod dept" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MatFuncionario" />
+      <xs:field xpath="mstns:Mat_x0020_funcionario" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

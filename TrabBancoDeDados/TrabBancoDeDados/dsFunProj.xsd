@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsFunProj" targetNamespace="http://tempuri.org/dsFunProj.xsd" xmlns:mstns="http://tempuri.org/dsFunProj.xsd" xmlns="http://tempuri.org/dsFunProj.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsFunProj" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsFunProj" msprop:Generator_DataSetName="dsFunProj">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FunProjeto" msprop:Generator_TableClassName="FunProjetoDataTable" msprop:Generator_TableVarName="tableFunProjeto" msprop:Generator_TablePropName="FunProjeto" msprop:Generator_RowDeletingName="FunProjetoRowDeleting" msprop:Generator_RowChangingName="FunProjetoRowChanging" msprop:Generator_RowEvHandlerName="FunProjetoRowChangeEventHandler" msprop:Generator_RowDeletedName="FunProjetoRowDeleted" msprop:Generator_UserTableName="FunProjeto" msprop:Generator_RowChangedName="FunProjetoRowChanged" msprop:Generator_RowEvArgName="FunProjetoRowChangeEvent" msprop:Generator_RowClassName="FunProjetoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_x0020_fun-projeto" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="_columncod_fun_projeto" msprop:Generator_ColumnPropNameInRow="_cod_fun_projeto" msprop:Generator_ColumnPropNameInTable="_cod_fun_projetoColumn" msprop:Generator_UserColumnName="cod fun-projeto" type="xs:int" />
+              <xs:element name="numero_x0020_do_x0020_projeto" msprop:Generator_ColumnVarNameInTable="columnnumero_do_projeto" msprop:Generator_ColumnPropNameInRow="numero_do_projeto" msprop:Generator_ColumnPropNameInTable="numero_do_projetoColumn" msprop:Generator_UserColumnName="numero do projeto" type="xs:int" minOccurs="0" />
+              <xs:element name="mat_x0020_funcionario" msprop:Generator_ColumnVarNameInTable="columnmat_funcionario" msprop:Generator_ColumnPropNameInRow="mat_funcionario" msprop:Generator_ColumnPropNameInTable="mat_funcionarioColumn" msprop:Generator_UserColumnName="mat funcionario" type="xs:int" minOccurs="0" />
+              <xs:element name="valor_x0020_pago" msprop:Generator_ColumnVarNameInTable="columnvalor_pago" msprop:Generator_ColumnPropNameInRow="valor_pago" msprop:Generator_ColumnPropNameInTable="valor_pagoColumn" msprop:Generator_UserColumnName="valor pago" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:FunProjeto" />
+      <xs:field xpath="mstns:cod_x0020_fun-projeto" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

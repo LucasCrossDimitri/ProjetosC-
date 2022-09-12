@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsNumero" targetNamespace="http://tempuri.org/dsNumero.xsd" xmlns:mstns="http://tempuri.org/dsNumero.xsd" xmlns="http://tempuri.org/dsNumero.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsNumero" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsNumero" msprop:Generator_DataSetName="dsNumero">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="NumeroDoProjeto" msprop:Generator_TableClassName="NumeroDoProjetoDataTable" msprop:Generator_TableVarName="tableNumeroDoProjeto" msprop:Generator_TablePropName="NumeroDoProjeto" msprop:Generator_RowDeletingName="NumeroDoProjetoRowDeleting" msprop:Generator_RowChangingName="NumeroDoProjetoRowChanging" msprop:Generator_RowEvHandlerName="NumeroDoProjetoRowChangeEventHandler" msprop:Generator_RowDeletedName="NumeroDoProjetoRowDeleted" msprop:Generator_UserTableName="NumeroDoProjeto" msprop:Generator_RowChangedName="NumeroDoProjetoRowChanged" msprop:Generator_RowEvArgName="NumeroDoProjetoRowChangeEvent" msprop:Generator_RowClassName="NumeroDoProjetoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="numero_x0020_do_x0020_projeto" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnnumero_do_projeto" msprop:Generator_ColumnPropNameInRow="numero_do_projeto" msprop:Generator_ColumnPropNameInTable="numero_do_projetoColumn" msprop:Generator_UserColumnName="numero do projeto" type="xs:int" />
+              <xs:element name="data_x0020_de_x0020_finalização" msprop:Generator_ColumnVarNameInTable="columndata_de_finalização" msprop:Generator_ColumnPropNameInRow="data_de_finalização" msprop:Generator_ColumnPropNameInTable="data_de_finalizaçãoColumn" msprop:Generator_UserColumnName="data de finalização" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="valor" msprop:Generator_ColumnVarNameInTable="columnvalor" msprop:Generator_ColumnPropNameInRow="valor" msprop:Generator_ColumnPropNameInTable="valorColumn" msprop:Generator_UserColumnName="valor" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:NumeroDoProjeto" />
+      <xs:field xpath="mstns:numero_x0020_do_x0020_projeto" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
